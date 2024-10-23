@@ -6,10 +6,10 @@
 
 /* Generale */
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
 }
 
-button {
+.bottone1 {
   background-color: #0061FF;
   color: white;
   margin-right: 10px;
@@ -23,18 +23,39 @@ h1 {
   font-size: 2rem;
 }
 
-header .box-header .container2 button {
-  background-color: #0061FF;
-  color: white;
-  margin-right: 10px;
-  padding: 7px 13px;
-  align-self: center;
-  border: #0061FF;
-}
+
 
 .bottone-inizia {
   margin-top: 30px;
   margin-bottom: 30px;
+  background-color: #0061FF;
+  color: white;
+  margin-right: 10px;
+  padding: 10px 15px;
+  align-self: center;
+  border: #0061FF;
+}
+
+.bottone-prova {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #0061FF;
+  color: white;
+  margin-right: 10px;
+  padding: 10px 15px;
+  align-self: center;
+  border: #0061FF;
+}
+
+.bottone-enterprise {
+
+  margin-bottom: 30px;
+  background-color: #0061FF;
+  color: white;
+  margin-right: 10px;
+  padding: 10px 15px;
+  align-self: center;
+  border: #0061FF;
 }
 
 .annulla {
@@ -113,13 +134,27 @@ header .box-header .container2 p{
   height: 40px;
   text-align: center;
   width: 100%;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(160, 160, 160);
 }
 
 .icona1 {
   align-items: center;
   padding-top: 7px;
   height: 40px;
+}
+
+.card .boxcard2 {
+  position: absolute;
+
+  top: 50px;
+  width: 250px;
+  height: 850px;
+  margin-top: 30px;
+  
+}
+
+li {
+  list-style: none;
 }
 
 .icona2 {
@@ -140,19 +175,87 @@ header .box-header .container2 p{
   height: 40px;
 }
 
+.boxcard2 h2 {
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.boxcard2 .costo {
+  padding-bottom: 10px;
+}
+
+.boxcard2 li{
+  margin-top: 10px;
+
+}
+
+.check {
+  color: #0061FF;
+  font-size: larger;
+}
+
+.line {
+  border-top: 1px solid rgb(160, 160, 160);
+  color: #0061FF;
+  padding-bottom: 1.5rem !important;
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+.acquistaora {
+ text-decoration: underline;
+ color: #0061FF;
+}
+
+.boxcard2 button {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.boxcard2 .mese{
+  padding-bottom: 30px;
+}
+
 .card {
   justify-content: center;
+  position: relative;
   width: 300px;
   height: 975px;
   display: flex;
-  border: 1px solid grey;
+  border: 1px solid rgb(160, 160, 160);
 }
 
 .card1 {
+  position: relative;
   width: 1000px;
   height: 260px;
   margin-top: 40px;
-  border: 1px solid grey;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.card1 .bottone-enterprise {
+  position: relative;
+  left: 800px;
+  bottom: 160px;
+}
+
+.h2enterprise {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.h4enterprise {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.penterprise {
+  padding-left: 30px;
+  padding-top: 50px;
+  font-size: 0.9rem;
 }
 
 .box-sezione{
@@ -161,6 +264,36 @@ header .box-header .container2 p{
   display: block;
   padding-top: 150px;
   align-self: center;
+}
+
+.img-partner {
+  height: 515px;
+}
+
+.box-partner {
+  padding-left: 40px;
+  padding-top: 50px;
+}
+
+.box-sezione2{
+  margin: 150px auto;
+  width: 1000px;
+  height: 515px;
+  display: flex;
+ 
+}
+
+.box-partner p {
+  margin-top: 20px;
+}
+
+.bottone-partner {
+  margin-top: 35px;
+  background-color: white;
+  padding: 10px 15px;
+  border-width: rgb(160, 160, 160);
+  font-size: large;
+  color: rgb(160, 160, 160);
 }
 
 .box-header {
