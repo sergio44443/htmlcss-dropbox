@@ -10,11 +10,26 @@ body {
 }
 
 button {
-  background-color: #0A4BB7;
+  background-color: #0061FF;
   color: white;
   margin-right: 10px;
-  padding: 5px 10px;
+  padding: 10px 15px;
   align-self: center;
+  border: #0061FF;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+header .box-header .container2 button {
+  background-color: #0061FF;
+  color: white;
+  margin-right: 10px;
+  padding: 7px 13px;
+  align-self: center;
+  border: #0061FF;
 }
 
 .bottone-inizia {
@@ -28,12 +43,17 @@ button {
 
 .fa-solid {
 
+ 
+}
+
+header .box-header .container1 p{
+  padding-left: 22px;
 
 }
 
-p{
-  padding: 0px 15px;
-  font-weight: bold;
+header .box-header .container2 p{
+  padding-right: 22px;
+;
 }
 
 .testo1 {
@@ -68,7 +88,7 @@ p{
 
 .tasti1 {
   display: flex;
-  margin-left: -12px;
+ 
   padding-top: 50px;
   align-items: center;
 }
@@ -89,19 +109,50 @@ p{
   max-width: 1000px;
 }
 
-.card {
+.boxcard22 {
+  height: 40px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
 
+.icona1 {
+  align-items: center;
+  padding-top: 7px;
+  height: 40px;
+}
+
+.icona2 {
+  align-items: center;
+  padding-top: 7px;
+  height: 40px;
+}
+
+.icona3 {
+  align-items: center;
+  padding-top: 7px;
+  height: 40px;
+}
+
+.icona4 {
+  align-items: center;
+  padding-top: 7px;
+  height: 40px;
+}
+
+.card {
+  justify-content: center;
   width: 300px;
   height: 975px;
   display: flex;
-  background-color: bisque;
+  border: 1px solid grey;
 }
 
 .card1 {
   width: 1000px;
   height: 260px;
   margin-top: 40px;
-  background-color: bisque;
+  border: 1px solid grey;
 }
 
 .box-sezione{
@@ -122,6 +173,7 @@ p{
 .container1 {
   display: flex;
   align-self: center;
+  justify-content: space-between;
 }
 
 .container2 {
@@ -132,14 +184,14 @@ p{
 
 .jumbotron {
   height: 700px;
-  background-color: aquamarine;
+  background-color: #B4D0E7;
   align-items: flex-start;
 }
 
 .titolo1 {
   padding-right: 7px;
   font-size: 4.7rem;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .box-jumbo {
