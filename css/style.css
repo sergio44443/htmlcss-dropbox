@@ -62,16 +62,26 @@ h1 {
   margin-top: 40px;
 }
 
-
+header .box-header .container1{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
 
 header .box-header .container1 p{
   margin-left: 22px;
-
+  height: 60px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
 header .box-header .container2 p{
-  padding-right: 22px;
-  margin: 3px auto;
+  margin-right: 22px;
+  height: 60px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
 .testo1 {
@@ -420,6 +430,11 @@ main header .box-header .container1 p:hover {
 
 }
 
+main header .box-header .container2 p:hover {
+  border-bottom: 1px solid black;
+
+}
+
 .italiano-footer {
   color: grey;
   margin: 0 350px;
@@ -457,29 +472,34 @@ main header .box-header .container1 p:hover {
   color: rgb(160, 160, 160);
 }
 
+header .box-header .container1 img {
+  height: 30px;
+}
+
 .box-header {
   width: 100%;
   height: 60px;
   display: flex;
   justify-content: space-between;
-  text-align: center;
-  align-self: center;
   align-items: center;
+  text-align: center;
 }
 
 .container1 {
-  display: flex;
-  align-self: center;
-  justify-content: space-between;
-  text-align: center;
   height: 60px;
+  display: flex;
+  align-items: center;
+  
+
 }
 
 .container2 {
   display: flex;
-  align-self: center;
+   
   justify-content: space-between;
-  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
 .jumbotron {
